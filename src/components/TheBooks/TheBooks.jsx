@@ -18,7 +18,7 @@ function TheBooks() {
   const queryRef = useRef();
 
   async function getBooks(query = "js") {
-    if (query.trim().length < 1) return;
+    if (query.trim().length < 2) return;
     mockRequest(fetch(`https://www.dbooks.org/api/search/${query}`))
       .then((answ) => answ.json())
       .then((data) => {
@@ -36,6 +36,7 @@ function TheBooks() {
         ref={queryRef}
         className="books-search"
         type="text"
+        min={2}
         placeholder="Example: Java"
       />
       <button onClick={() => getBooks(queryRef.current.value)}>Find</button>
