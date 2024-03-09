@@ -1,0 +1,15 @@
+.main-section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 50vh;
+}
+
+.main-title {
+  color: #ffff;
+}
+
+.main-subtitle {
+  color: #64275e;
+}

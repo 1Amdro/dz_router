@@ -1,0 +1,6 @@
+.spinner {
+  width: 180px;
+  z-index: 5;
+  position: relative;
+  top: 100px;
+}

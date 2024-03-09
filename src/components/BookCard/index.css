@@ -1,0 +1,17 @@
+.book-section {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+  align-items: center;
+  padding: 20px;
+}
+
+.book-img {
+  width: 200px;
+}
+
+.book-desc,
+.book-author,
+.book-publ {
+  color: #fff;
+}

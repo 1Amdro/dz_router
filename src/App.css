@@ -1,0 +1,14 @@
+#root {
+  text-align: center;
+  min-height: 100vh;
+  background: #a96d59;
+}
+
+.error-title {
+  color: aliceblue;
+  margin: 100px;
+}
+
+.about-title {
+  color: aliceblue;
+}

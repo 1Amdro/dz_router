@@ -1,0 +1,14 @@
+header {
+  padding-top: 20px;
+  margin-bottom: 60px;
+}
+
+.link {
+  color: azure;
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.link-active {
+  color: brown;
+}

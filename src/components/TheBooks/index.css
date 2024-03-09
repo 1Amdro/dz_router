@@ -1,0 +1,28 @@
+.books-list {
+  list-style: none;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-row-gap: 50px;
+}
+
+.books-title {
+  color: aliceblue;
+  margin-bottom: 50px;
+}
+
+.book-wrap {
+  display: grid;
+  grid-template-rows: 300px 0.2fr;
+  justify-items: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-img {
+  width: 200px;
+  border-radius: 20px;
+}
+
+.book-title {
+  color: aliceblue;
+}
