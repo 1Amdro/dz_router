@@ -18,6 +18,7 @@ function TheBooks() {
   const queryRef = useRef();
 
   async function getBooks(query = "js") {
+    if (query.trim().length < 1) return;
     mockRequest(fetch(`https://www.dbooks.org/api/search/${query}`))
       .then((answ) => answ.json())
       .then((data) => {
